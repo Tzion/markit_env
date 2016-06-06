@@ -1,0 +1,10 @@
+#!/home/tzion/Markit/develop/vir-env/bin/python2
+# EASY-INSTALL-ENTRY-SCRIPT: 'ipython==5.0.0b1','console_scripts','ipython'
+__requires__ = 'ipython==5.0.0b1'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('ipython==5.0.0b1', 'console_scripts', 'ipython')()
+    )
